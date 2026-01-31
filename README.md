@@ -11,7 +11,7 @@ A fast command-line tool built in Rust that converts CSV files into structured J
 
 ## Download (Windows)
 
-Prebuilt Windows executable available in **x86_64-pc-windows-gnu/release**.
+Prebuilt Windows executable available in **Releases**.
 
 Download 'csv_to_json.exe' from the latest release and run:
 
@@ -24,7 +24,7 @@ csv_to_json.exe input.csv output.json
 
 '''bash
 git clone
-[View Source on Github](https://github.com/EmmanuelIdiong/csv_to_json-cli.git)
+[View Source on Github](https://github.com/EmmanuelIdiong/csv_to-json-cli.git)
 cd csv_to_json-cli
 cargo build --release
 
@@ -37,9 +37,11 @@ csv_to_json input.csv output.json
 input.csv:
 
 name,age,city
+
 Emmanuel,19,Lagos
 
 output.json:
+
 [
     {
         "name": "Emmanuel",
@@ -49,10 +51,12 @@ output.json:
 ]
 
 Tech Stack:
+
 Rust
 Clap
 CSV crate
 Serde + Serde JSON
 
 Author:
+
 Emmanuel Idiong
