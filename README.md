@@ -7,9 +7,10 @@ A fast command-line tool built in Rust that converts CSV files into structured J
 - Reads CSV files with headers
 - Maps rows into typed Rust structs
 - Outputs formatted JSON
-- Simple CLI usage
+- Simple CLI (Command-line) usage
+- Designed for cross platform use
 
-## Download (Windows)
+## Download (Windows Executable)
 
 Prebuilt Windows executable available in **Releases**.
 
@@ -27,6 +28,10 @@ git clone
 [View Source on Github](https://github.com/EmmanuelIdiong/csv_to-json-cli.git)
 cd csv_to_json-cli
 cargo build --release
+
+## Output in
+
+target/release/csv_to-json
 
 ## Usage
 
