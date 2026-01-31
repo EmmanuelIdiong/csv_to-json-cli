@@ -31,3 +31,28 @@ cargo build --release
 ## Usage
 
 csv_to_json input.csv output.json
+
+## Example
+
+input.csv:
+
+name,age,city
+Emmanuel,19,Lagos
+
+output.json:
+[
+    {
+        "name": "Emmanuel",
+        "age": 19,
+        "city": "Lagos"
+    }
+]
+
+Tech Stack:
+Rust
+Clap
+CSV crate
+Serde + Serde JSON
+
+Author:
+Emmanuel Idiong
