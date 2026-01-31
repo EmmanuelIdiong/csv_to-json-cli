@@ -62,9 +62,10 @@ Clap
 CSV crate
 Serde + Serde JSON
 
+Topics: 
+
+Rust CLi CSV JSON Data-tool
+
 Author:
 
 Emmanuel Idiong
-
-
-Rust CLi CSV JSON Data-tool
