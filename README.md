@@ -41,11 +41,15 @@ csv_to_json input.csv output.json
 
 input.csv:
 
+
 name,age,city
 
 Emmanuel,19,Lagos
 
+
+
 output.json:
+
 
 [
     {
@@ -54,6 +58,7 @@ output.json:
         "city": "Lagos"
     }
 ]
+
 
 Tech Stack:
 
